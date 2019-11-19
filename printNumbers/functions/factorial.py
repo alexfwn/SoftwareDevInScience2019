@@ -27,3 +27,4 @@ def Factorial(n):
     :return:   n!
     '''
     return(math.factorial(n))
+    print('new print command for factorial function')
