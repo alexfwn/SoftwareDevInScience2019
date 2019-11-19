@@ -39,6 +39,7 @@ from docopt import docopt
 from parameters import *
 from functions.fibonacci import *
 from functions.factorial import *
+import webbrowser
 
 #
 # FUNCTION TABLE
@@ -68,3 +69,6 @@ if __name__ == '__main__':
         print('fib(' + str(params.operand) + ') =', result)
     elif params.functionIndex == CONST_FUNC_CODE_FACTORIAL:
         print(str(params.operand) + '! =', str(result))
+
+    print('Never gonna give you up!')
+    webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ')
